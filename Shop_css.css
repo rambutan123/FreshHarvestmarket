@@ -1,0 +1,118 @@
+h1.header{
+  background-color: B3FFAE;
+  padding: 20px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans serif;
+  font-size: 30px;
+  color: Black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: Bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  margin-top: 0px;
+}
+
+h1.text {
+  background-color: white;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-style: Bold;
+  position: fixed;
+  top: -10;
+  left: 0;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 80px;
+  padding: 20px;
+  line-height: 1.5;
+  z-index: 1;
+ 
+
+}
+h1.ProductCategory {
+ text-align: center;
+ font-weight: bold;
+
+
+}
+
+h1.text a {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans serif;
+  font-size: 20 px;
+  color: Black;
+  font-style: Bold;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 1pt;
+  padding-top: 10px;
+     z-index: 2;
+}
+  div.text a:hover {
+  color: gray;
+  }
+
+div.poster{
+  position: relative;
+  overflow: hidden;
+}
+
+div.poster img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 100pt;
+  transition: transform 0.3s ease, filter 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+    filter: blur(3px);
+}
+
+    div.product-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  padding:30 100px;
+
+  height: 230;
+  grid-gap: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+    }
+
+    div.product {
+      height: 300px;
+      width:70%; 
+      margin: auto;
+      flex-basis: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    img.product-image {
+      width: 150px;
+      height: 150px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .product-name {
+      font-weight: bold;
+      text-align: center;
+      padding: 50px;
+    }
